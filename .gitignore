@@ -1,0 +1,6 @@
+k.txt
+input/
+output/
+decrypted/
+*.enc
+k3.txt
