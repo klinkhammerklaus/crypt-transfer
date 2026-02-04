@@ -2,7 +2,4 @@ k.txt
 input/
 decrypted/
 
-*.enc
-!encrypted/
-!encrypted/**/*.enc
 
