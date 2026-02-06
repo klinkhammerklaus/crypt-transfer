@@ -1,0 +1,8 @@
+[master d024a56] auto sync
+ 5 files changed, 25 insertions(+), 2 deletions(-)
+ create mode 100644 cron.log
+ delete mode 100644 encrypted/7 - Kopie.txt.enc
+ delete mode 100644 encrypted/7.txt.enc
+ delete mode 100644 encrypted/test6.txt.enc
+ create mode 100755 sync.sh
+fatal: could not read Username for 'https://github.com': No such device or address
