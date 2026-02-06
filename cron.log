@@ -1,6 +1,0 @@
-✅ 8.odt -> 8.odt.enc
-[master b364837] auto sync
- 2 files changed, 1 insertion(+), 54 deletions(-)
- create mode 100644 encrypted/8.odt.enc
-To https://github.com/klinkhammerklaus/crypt-transfer.git
-   ad34bd0..b364837  master -> master
