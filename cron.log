@@ -24,3 +24,6 @@ fatal: could not read Username for 'https://github.com': No such device or addre
 [master 0458f6c] auto sync
  2 files changed, 4 insertions(+), 1 deletion(-)
 fatal: could not read Username for 'https://github.com': No such device or address
+[master 594bc67] auto sync
+ 2 files changed, 5 insertions(+)
+fatal: could not read Username for 'https://github.com': No such device or address
