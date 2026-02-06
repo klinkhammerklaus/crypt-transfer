@@ -6,3 +6,6 @@
  delete mode 100644 encrypted/test6.txt.enc
  create mode 100755 sync.sh
 fatal: could not read Username for 'https://github.com': No such device or address
+[master b8bc2cc] auto sync
+ 1 file changed, 8 insertions(+)
+fatal: could not read Username for 'https://github.com': No such device or address
