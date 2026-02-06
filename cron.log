@@ -12,3 +12,6 @@ fatal: could not read Username for 'https://github.com': No such device or addre
 [master 21698d8] auto sync
  1 file changed, 3 insertions(+)
 fatal: could not read Username for 'https://github.com': No such device or address
+[master 92ac766] auto sync
+ 1 file changed, 3 insertions(+)
+fatal: could not read Username for 'https://github.com': No such device or address
