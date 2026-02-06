@@ -2,4 +2,6 @@ k.txt
 input/
 decrypted/
 cron.log
+*.log
+*.swp
 
