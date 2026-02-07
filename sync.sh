@@ -1,6 +1,12 @@
 #!/usr/bin/env bash
 set -euo pipefail
-cd "$HOME/projekte/crypt-transfer"
+
+# Expliziter PATH für cron-Umgebung
+export PATH="/usr/local/bin:/usr/bin:/bin:$PATH"
+
+# Absoluter Pfad (funktioniert auch wenn $HOME in cron nicht gesetzt ist)
+BASEDIR="${HOME:-/home/mm}/projekte/crypt-transfer"
+cd "$BASEDIR"
 
 # Kill alte Instanzen dieses Scripts (außer uns selbst)
 SCRIPT_PATH="$(realpath "$0")"
