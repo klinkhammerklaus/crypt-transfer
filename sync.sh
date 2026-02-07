@@ -45,7 +45,7 @@ while true; do
       git commit -m "auto sync"
       git push
     }
-    last_count=$(current_count)
+    last_count=$current_count
   fi
   
   sleep 1
