@@ -4,4 +4,4 @@ decrypted/
 cron.log
 *.log
 *.swp
-
+*:Zone.Identifier.enc
