@@ -24,6 +24,9 @@ mkdir -p "$INPUT" "$ENC"
 # Funktion: Erstelle Liste aller input-Dateien (relativ)
 get_input_files() {
   find "$INPUT" -type f -print0 2>/dev/null | while IFS= read -r -d '' f; do
+    # Filtere Zone.Identifier und andere Metadaten-Dateien
+    [[ "$f" == *":Zone.Identifier"* ]] && continue
+    [[ "$(basename "$f")" == *":Zone.Identifier"* ]] && continue
     echo "${f#${INPUT}/}"
   done | sort
 }
